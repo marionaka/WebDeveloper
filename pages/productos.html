@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../Media/favicon.ico"> 
+    <link rel="stylesheet" href="../estilo.css"> <!-- link stylesheet es para vincular el html con el css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:wght@300&display=swap" rel="stylesheet"><!-- Desde prconnect hasta aca es el lo que nos da fonts.google para incluir las fuentes -->
+    <title>Productos</title>
+    <link rel="stylesheet" href="../estilo.css"> <!-- link stylesheet es para vincular el html con el css -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nustros productos</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="logo">
+                        <img src="../Media/favicon.ico" alt="logo">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Contenido del <em>pack</em></h2> <!-- Se agrega un em para poner en italics la letra -->
+                    <ol type=1> 
+                        <li>Libro</li> <!-- li se agrega para poner un elemento de la lista -->
+                        <li>Planchuela de stickers</li>
+                            <ul style="list-style-type:square"> <!-- aca se puede anidar una lista adentro de la otra y se selecciona en style square para que sea un cuadrado relleno -->
+                                <li>Grande</li>
+                                <li>Chico</li>
+                            </ul>
+                        <li>Postales</li>
+                    </ol>
+            </section>
+            <section>
+                <h2>Video</h2>
+                <video src="/Media/WhatsApp Video 2021-09-16 at 09.12.51.mp4" controls <!-- aca -->width="300"></video>
+                <!-- Para insertar un video ya bajado se puede poner directamente video y seleccionar la fuente, despues se agrega controls para que figuren el play stop etc y finalmente el width para determinar el tamaño -->
+            </section>
+            <section>
+                <h2>Audio</h2>
+                <audio src="/Media/Track01.mp3" controls></audio> <!-- para insertar un audio se pone audio, la fuente y se agrega los controls como en el video -->
+            </section>
+        </main>
+        <footer>
+                <h5 id="pie">Creado por Mariano Nakamura</h5>
+        </footer>
+    </div>
+</body>
+</html>
